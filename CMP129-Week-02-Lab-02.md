@@ -142,25 +142,15 @@ Required Organization
 
 Because both assignments use the same class and filenames, organize them in separate folders:
 
-Lab-02
-├── Assignment-01-Without-Constructor
-│   └── src
-│       ├── Person.java
-│       └── PersonTest.java
-├── Assignment-02-With-Constructor
-│   └── src
-│       ├── Person.java
-│       └── PersonTest.java
-├── AI-Use-Report.md
-└── CMP129-Week-02-Lab-02.docx
+
 Submission
 
 Push the following files to the Week 2 GitHub repository:
 
-Lab-02/Assignment-01-Without-Constructor/src/Person.java
-Lab-02/Assignment-01-Without-Constructor/src/PersonTest.java
-Lab-02/Assignment-02-With-Constructor/src/Person.java
-Lab-02/Assignment-02-With-Constructor/src/PersonTest.java
+Lab-02/Person.java
+Lab-02/PersonTest.java
+Lab-02/Person.java
+Lab-02/PersonTest.java
 Lab-02/AI-Use-Report.md
 
 Make at least two meaningful commits while completing the lab. Use clear commit messages, such as:
