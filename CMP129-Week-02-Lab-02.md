@@ -11,9 +11,9 @@ Create and use a parameterized constructor.
 Call instance methods using objects.
 Test a class using a separate test class.
 
-Complete both assignments. Each assignment must be placed in its own folder.
+Complete both phases in order using the same `Person.java` and `PersonTest.java` files in the repository root. Commit Phase 1 before modifying the files for Phase 2. Only the completed Phase 2 files need to remain when you submit the lab.
 
-Assignment 1: Person Class Without a Defined Constructor
+Phase 1: Person Class Without a Defined Constructor
 
 Create a Java class named Person that stores information about a person. Do not define a constructor in this version. Java will provide the default no-argument constructor automatically.
 
@@ -69,11 +69,11 @@ Name:  David Smith
 Age:   35
 Email: david@example.com
 
-Do not use a parameterized constructor in Assignment 1.
+Do not use a parameterized constructor during Phase 1.
 
-Assignment 2: Person Class With a Constructor
+Phase 2: Add a Parameterized Constructor
 
-Create another version of the Person class. This version must include a parameterized constructor.
+Modify the existing `Person.java` file from Phase 1 by adding a parameterized constructor. Then update the existing `PersonTest.java` file to test the constructor.
 
 Person Class Requirements
 
@@ -122,7 +122,7 @@ Use at least one setter method to update an attribute after an object has been c
 Use at least one getter method to retrieve an attribute.
 Call displayInfo() for each object.
 
-Do not use the default no-argument constructor in Assignment 2.
+In the final Phase 2 test, create the required objects using the parameterized constructor.
 
 General Requirements
 Keep all attributes private.
@@ -133,25 +133,30 @@ Indent and format the code correctly.
 Include comments explaining the class, attributes, constructor, and important methods.
 Do not place the main method inside the Person class.
 Each PersonTest class must contain a valid main method.
-Both assignments must compile and run without errors.
+Both phases must compile and run without errors before you continue.
 Test every getter, setter, constructor, and displayInfo() method.
 You must be able to explain every part of your submitted code.
 Follow the course AI-use policy.
 Record any AI assistance in AI-Use-Report.md.
 Required Organization
 
-Because both assignments use the same class and filenames, organize them in separate folders:
+Keep these files directly in the repository root:
+
+- `CMP129-Week-02-Lab-02.md`
+- `AI-Use-Report.md`
+- `Person.java`
+- `PersonTest.java`
+
+Do not create or use a `src` folder.
 
 
 Submission
 
-Push the following files to the Week 2 GitHub repository:
+Push the following final Phase 2 files to your Week 2, Lab 2 GitHub repository:
 
-Lab-02/Person.java
-Lab-02/PersonTest.java
-Lab-02/Person.java
-Lab-02/PersonTest.java
-Lab-02/AI-Use-Report.md
+- `Person.java`
+- `PersonTest.java`
+- `AI-Use-Report.md`
 
 Make at least two meaningful commits while completing the lab. Use clear commit messages, such as:
 
